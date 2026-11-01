@@ -35,7 +35,7 @@ This repository contains the OpenCore EFI for the Dell Precision 7760 mobile wor
 ### 📸 Screenshots
 ![About This Mac](Screenshots/about.png)
 ![Information about card driver](Screenshots/detail.png)
-![Apps list](Screenshots/app_list.png)
+![Main Screen](Screenshots/main_screen.png)
 
 ### 🏆 Credits & License
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and core Kexts.

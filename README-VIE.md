@@ -31,10 +31,10 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 ### 📖 Hướng dẫn cài đặt chi tiết:
 [Nhấn vào đây để xem chi tiết hướng dẫn cài đặt]()
 
-### 📸 Screenshots:
+### 📸 Ảnh chụp màn hình:
 ![About This Mac](Screenshots/about.png)
 ![Information about card driver](Screenshots/detail.png)
-![Apps list](Screenshots/app_list.png)
+![Main Screen](Screenshots/main_screen.png)
 
 ### 🏆 Ghi công & Giấy phép (Credits & License):
 - [Acidanthera](https://github.com/acidanthera) cho OpenCore và hệ thống Kext lõi.
