@@ -29,7 +29,7 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 - **Linh tinh:** Smart Card, SD Reader, WWAN và khay SIM không khả dụng vì đã nhường slot cho USB rồi.
 
 ### 📖 Hướng dẫn cài đặt chi tiết:
-[Nhấn vào đây để xem chi tiết hướng dẫn cài đặt]()
+[Nhấn vào đây để xem chi tiết hướng dẫn cài đặt](https://github.com/datanonymus/Dell-Precision-7760-Hackintosh/blob/main/TUTORIAL-VIE.md)
 
 ### 📸 Ảnh chụp màn hình:
 ![About This Mac](Screenshots/about.png)
