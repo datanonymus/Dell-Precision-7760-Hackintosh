@@ -1,4 +1,4 @@
-[Chuyển sang phiên bản Tiếng Việt tại đây!](https://github.com/datanonymus/Dell-Precision-7760-Hackintosh/README-VIE.md)
+[Chuyển sang phiên bản Tiếng Việt tại đây!](https://github.com/datanonymus/Dell-Precision-7760-Hackintosh/blob/main/README-VIE.md)
 
 # Hackintosh Dell Precision 7760 | Tiger Lake i7-11850H | RTX A5000 Metal 3 | macOS Tahoe
 
