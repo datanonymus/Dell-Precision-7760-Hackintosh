@@ -30,7 +30,7 @@ This repository contains the OpenCore EFI for the Dell Precision 7760 mobile wor
 - **Misc:** Smart Card, SD Reader, WWAN, and SIM tray are unavailable as their slots were yielded for USB.
 
 ### 📖 Detailed Installation Guide
-[Click here to see the detailed installation guide]()
+[Click here to see the detailed installation guide](https://github.com/datanonymus/Dell-Precision-7760-Hackintosh/blob/main/TUTORIAL-ENG.md)
 
 ### 📸 Screenshots
 ![About This Mac](Screenshots/about.png)
