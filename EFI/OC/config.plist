@@ -1333,7 +1333,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-v debug=0x100 keepsyms=1 -vi2c-force-polling -ibtcompatbeta nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 gfxrst=4 -liludbgall nvfbhidpi=1 applbkl=3 itlwm_he=1 nvrmacpibl=1</string>
+                    <string>-v debug=0x100 keepsyms=1 -vi2c-force-polling -ibtcompatbeta nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 gfxrst=4 -liludbgall nvfbhidpi=1 applbkl=3 nvrmacpibl=1</string>
                     <key>csr-active-config</key>
                     <data>QwoAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1407,13 +1407,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02153300J9P8PGCB</string>
+                <string></string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>1793</integer>
                 <key>ROM</key>
-                <data>h1xrgwbe</data>
+                <data></data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1421,9 +1421,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C02GX0QCML7H</string>
+                <string></string>
                 <key>SystemUUID</key>
-                <string>8CD561C0-42AE-44F9-8B88-9D59E2A23E12</string>
+                <string></string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
