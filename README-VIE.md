@@ -12,6 +12,7 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 
 ### ✅ Những thứ đã hoạt động:
 - **GPU:** Full Hardware Acceleration hỗ trợ Metal 3 trên NVIDIA RTX A5000 (Cảm ơn `nullMoth` vì những nỗ lực tuyệt vời của anh ấy!)
+- **Thanh điều chỉnh độ sáng:** Đã hỗ trợ và hoạt động hoàn hảo! (Well... lại phải cảm ơn `nullMoth` rồi 👽!)
 - **Mạng:** Nhận diện Native AirPort, Wi-Fi và Bluetooth (nhờ driver của `laobamac` bản 2.4.0-alpha)
 - **Loa trong & Cổng 3.5mm:** Đã lên tiếng nhờ phiên bản kext beta của `VoodooHDA_BL`! (Ngạc nhiên chưa? Nó không chết kìa! 🐧. Cảm ơn `CloverHackyColor` vì bộ kext audio tuyệt vời của anh ấy✌️!)
 - **Trackpad:** Hoạt động trơn tru với đầy đủ tính năng Multi-touch (Đa điểm)
@@ -22,7 +23,7 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 - **Xuất hình:** Cổng HDMI xuất hình bình thường qua card NVIDIA.
 
 ### ❌ Những thứ không hoạt động (Và cách sống chung với lũ 🤷‍♂️):
-- **Thanh điều chỉnh độ sáng:** Không hoạt động. Các app như Lunar, Monitor Control hay BetterDisplay đều không hoạt động. **Cách khắc phục:** Khởi động lại máy vào BIOS và tự chỉnh độ sáng thủ công trong thiết lập Display của BIOS.
+~~- **Thanh điều chỉnh độ sáng:** Không hoạt động. Các app như Lunar, Monitor Control hay BetterDisplay đều không hoạt động. **Cách khắc phục:** Khởi động lại máy vào BIOS và tự chỉnh độ sáng thủ công trong thiết lập Display của BIOS.~~
 - ~~**Loa trong, cổng 3.5mm và Mic tích hợp:** Không hoạt động hoàn toàn do không có driver cho kiến trúc Intel SST (Well... đổ lỗi cho Intel và Apple đi, đừng đổ lỗi cho tôi 🤷‍♂️!) **Cách khắc phục:** Cắm USB Sound Card hoặc dùng loa/tai nghe Bluetooth để xuất âm thanh.~~
 - **Xuất âm thanh qua HDMI (HDMI Audio Output):** Không hoạt động! Driver NullMoth hiện tại chưa hỗ trợ truyền âm thanh qua cổng này (Có hình xem là may rồi, đòi hỏi gì 🤷‍♂️!).
 - **Camera tích hợp:** Không hoạt động do thiếu driver giao tiếp.

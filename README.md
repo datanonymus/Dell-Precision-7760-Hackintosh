@@ -13,6 +13,7 @@ This repository contains the OpenCore EFI for the Dell Precision 7760 mobile wor
 
 ### ✅ What Works:
 - **GPU:** Full Hardware Acceleration with Metal 3 support on NVIDIA RTX A5000 (Thanks to `nullMoth` for his amazing efforts!)
+- **Brightness Control:** Supported and working perfectly! (Well, time to thank nullMoth again! 👽)
 - **Network:** Native AirPort, Wi-Fi, and Bluetooth (thanks to `laobamac`'s 2.4.0-alpha driver)
 - **Audio & 3.5mm Jack:** Working natively via the beta version of `VoodooHDA_BL` kext! (Surprise! It's not dead after all 🐧. Thanks to `CloverHackyColor` for his awesome audio kext ✌️!)
 - **Trackpad:** Works smoothly with full Multi-touch features
@@ -23,7 +24,7 @@ This repository contains the OpenCore EFI for the Dell Precision 7760 mobile wor
 - **Display Out:** HDMI output works normally via the NVIDIA card.
 
 ### ❌ What Doesn't Work (And how to deal with it 🤷‍♂️):
-- **Brightness Control:** Not working. Apps like Lunar, Monitor Control, or BetterDisplay do not work. **Workaround:** Reboot into BIOS and adjust brightness manually in the BIOS Display settings.
+~~- **Brightness Control:** Not working. Apps like Lunar, Monitor Control, or BetterDisplay do not work. **Workaround:** Reboot into BIOS and adjust brightness manually in the BIOS Display settings.~~
 - ~~**Internal Audio, 3.5mm Jack, and Internal Mic:** Completely non-functional due to the lack of drivers for the Intel SST architecture (Well... blame Intel and Apple, don't blame me 🤷‍♂️!). **Workaround:** Plug in a USB Sound Card or use Bluetooth speakers/headphones for audio output.~~
 - **HDMI Audio Output:** Dead. The nullMoth driver doesn't support audio pass-through yet. (Visuals only, no sound for you 🤷‍♂️).
 - **Internal Camera:** Not working due to missing interface drivers.
