@@ -13,6 +13,7 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 ### ✅ Những thứ đã hoạt động:
 - **GPU:** Full Hardware Acceleration hỗ trợ Metal 3 trên NVIDIA RTX A5000 (Cảm ơn `nullMoth` vì những nỗ lực tuyệt vời của anh ấy!)
 - **Mạng:** Nhận diện Native AirPort, Wi-Fi và Bluetooth (nhờ driver của `laobamac` bản 2.4.0-alpha)
+- **Loa trong & Cổng 3.5mm:** Đã lên tiếng nhờ phiên bản kext beta của `VoodooHDA_BL`! (Ngạc nhiên chưa? Nó không chết kìa! 🐧. Cảm ơn `CloverHackyColor` vì bộ kext audio tuyệt vời của anh ấy✌️!)
 - **Trackpad:** Hoạt động trơn tru với đầy đủ tính năng Multi-touch (Đa điểm)
 - **Bàn phím:** Nhận phím kèm đèn nền (Well... tất nhiên! Nhờ công của BIOS điều khiển LED cả 🗿)
 - **Pin:** Hiển thị phần trăm (Battery Percent) và quản lý pin hoạt động tốt
@@ -22,7 +23,8 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 
 ### ❌ Những thứ không hoạt động (Và cách sống chung với lũ 🤷‍♂️):
 - **Thanh điều chỉnh độ sáng:** Không hoạt động. Các app như Lunar, Monitor Control hay BetterDisplay đều không hoạt động. **Cách khắc phục:** Khởi động lại máy vào BIOS và tự chỉnh độ sáng thủ công trong thiết lập Display của BIOS.
-- **Loa trong, cổng 3.5mm và Mic tích hợp:** Không hoạt động hoàn toàn do không có driver cho kiến trúc Intel SST (Well... đổ lỗi cho Intel và Apple đi, đừng đổ lỗi cho tôi 🤷‍♂️!) **Cách khắc phục:** Cắm USB Sound Card hoặc dùng loa/tai nghe Bluetooth để xuất âm thanh.
+- ~~**Loa trong, cổng 3.5mm và Mic tích hợp:** Không hoạt động hoàn toàn do không có driver cho kiến trúc Intel SST (Well... đổ lỗi cho Intel và Apple đi, đừng đổ lỗi cho tôi 🤷‍♂️!) **Cách khắc phục:** Cắm USB Sound Card hoặc dùng loa/tai nghe Bluetooth để xuất âm thanh.~~
+- **Xuất âm thanh qua HDMI (HDMI Audio Output):** Không hoạt động! Driver NullMoth hiện tại chưa hỗ trợ truyền âm thanh qua cổng này (Có hình xem là may rồi, đòi hỏi gì 🤷‍♂️!).
 - **Camera tích hợp:** Không hoạt động do thiếu driver giao tiếp.
 - **Sleep (Ngủ):** Phế toàn tập! Nếu bạn cố ép nó ngủ thì cái Laptop của bạn vẫn sẽ nóng như cái lò than thôi! Đừng mong chờ 1 con khủng long có thể ngủ mà không duy trì tính nóng trong người 🤷‍♂️! (Khuyên dùng Display Sleep).
 - **Thunderbolt 4:** Không hoạt động do không có trình điều khiển Thunderbolt 4 của dòng Tiger Lake trên macOS.
@@ -40,4 +42,5 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 - [Acidanthera](https://github.com/acidanthera) cho OpenCore và hệ thống Kext lõi.
 - [nullMoth](https://github.com/nullmoth) cho những nỗ lực tuyệt vời của anh ấy để giúp card NVIDIA hoạt động hoàn hảo trên nền macOS.
 - [OpenIntelWireless](https://github.com/OpenIntelWireless) cho bộ Driver Intel Wi-Fi/BT ban đầu, và [laobamac](https://github.com/laobamac) vì đã port nó lên macOS 26 Tahoe.
+- [CloverHackyColor](https://github.com/CloverHackyColor) cho bộ kext audio chất lượng của anh ấy! Không có anh ấy thì laptop chúng ta vẫn mãi bị câm thôi 😉!
 - Giấy phép mã nguồn mở: **GNU GPLv3**.
