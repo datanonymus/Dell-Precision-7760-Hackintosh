@@ -23,7 +23,7 @@ Repository này chứa bộ EFI OpenCore dành cho máy trạm Dell Precision 77
 - **Xuất hình:** Cổng HDMI xuất hình bình thường qua card NVIDIA.
 
 ### ❌ Những thứ không hoạt động (Và cách sống chung với lũ 🤷‍♂️):
-~~- **Thanh điều chỉnh độ sáng:** Không hoạt động. Các app như Lunar, Monitor Control hay BetterDisplay đều không hoạt động. **Cách khắc phục:** Khởi động lại máy vào BIOS và tự chỉnh độ sáng thủ công trong thiết lập Display của BIOS.~~
+- ~~**Thanh điều chỉnh độ sáng:** Không hoạt động. Các app như Lunar, Monitor Control hay BetterDisplay đều không hoạt động. **Cách khắc phục:** Khởi động lại máy vào BIOS và tự chỉnh độ sáng thủ công trong thiết lập Display của BIOS.~~
 - ~~**Loa trong, cổng 3.5mm và Mic tích hợp:** Không hoạt động hoàn toàn do không có driver cho kiến trúc Intel SST (Well... đổ lỗi cho Intel và Apple đi, đừng đổ lỗi cho tôi 🤷‍♂️!) **Cách khắc phục:** Cắm USB Sound Card hoặc dùng loa/tai nghe Bluetooth để xuất âm thanh.~~
 - **Xuất âm thanh qua HDMI (HDMI Audio Output):** Không hoạt động! Driver NullMoth hiện tại chưa hỗ trợ truyền âm thanh qua cổng này (Có hình xem là may rồi, đòi hỏi gì 🤷‍♂️!).
 - **Camera tích hợp:** Không hoạt động do thiếu driver giao tiếp.
